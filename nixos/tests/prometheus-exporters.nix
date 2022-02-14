@@ -933,6 +933,20 @@ let
       '';
     };
 
+    pve = {
+      exporterConfig = {
+        enable = true;
+        user = "test_user@pam";
+        password = "hunter3";
+        verifySSL = false;
+      };
+      exporterTest = ''
+        wait_for_unit("prometheus-pve-exporter.service")
+        wait_for_open_port(9221)
+        wait_until_succeeds("curl localhost:9221")
+      '';
+    };
+
     py-air-control = {
       nodeName = "py_air_control";
       exporterConfig = {
