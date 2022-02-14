@@ -6380,6 +6380,8 @@ in {
 
   prometheus-flask-exporter = callPackage ../development/python-modules/prometheus-flask-exporter { };
 
+  prometheus-pve-exporter = callPackage ../development/python-modules/prometheus-pve-exporter { };
+
   promise = callPackage ../development/python-modules/promise { };
 
   prompt-toolkit = callPackage ../development/python-modules/prompt-toolkit { };
