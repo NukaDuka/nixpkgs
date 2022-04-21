@@ -295,6 +295,7 @@ in
   mailcatcher = handleTest ./mailcatcher.nix {};
   mailhog = handleTest ./mailhog.nix {};
   man = handleTest ./man.nix {};
+  mandos = handleTest ./mandos.nix {};
   mariadb-galera = handleTest ./mysql/mariadb-galera.nix {};
   mastodon = handleTestOn ["x86_64-linux" "i686-linux" "aarch64-linux"] ./web-apps/mastodon.nix {};
   matomo = handleTest ./matomo.nix {};

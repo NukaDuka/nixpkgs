@@ -139,6 +139,14 @@
       </listitem>
       <listitem>
         <para>
+          <link xlink:href="https://www.recompile.se/mandos">mandos</link>,
+          a system for allowing servers with encrypted root file systems
+          to reboot unattended and/or remotely. Available as
+          <link xlink:href="option.html#opt-services.mandos.enable">services.mandos</link>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
           <link xlink:href="https://github.com/vvilhonen/nethoscope">nethoscope</link>,
           listen to your network traffic. Available as
           <link linkend="opt-programs.nethoscope.enable">programs.nethoscope</link>.
