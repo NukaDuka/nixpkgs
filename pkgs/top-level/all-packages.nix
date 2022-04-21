@@ -21729,6 +21729,8 @@ with pkgs;
 
   maker-panel = callPackage ../tools/misc/maker-panel { };
 
+  mandos = callPackage ../servers/mandos { };
+
   mastodon = callPackage ../servers/mastodon { };
 
   materialize = callPackage ../servers/sql/materialize {
